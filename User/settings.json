@@ -1,4 +1,5 @@
 {
+  "editor.acceptSuggestionOnEnter": "on",
   "editor.autoClosingBrackets": "always",
   "editor.autoClosingDelete": "always",
   "editor.autoClosingQuotes": "always",
