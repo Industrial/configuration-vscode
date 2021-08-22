@@ -28,7 +28,6 @@
   "git.autofetch": true,
   "git.enableSmartCommit": true,
   "references.preferredLocation": "view",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.colorTheme": "Base16 Light Google",
   "workbench.editor.enablePreview": false,
   "workbench.list.openMode": "doubleClick",
