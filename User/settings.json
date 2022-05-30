@@ -1,24 +1,50 @@
 {
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[python]": {
-    "editor.defaultFormatter": "ms-python.python"
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.guides.indentation": true,
+    "editor.tabSize": 4,
   },
-  "debug.console.fontSize": 18,
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  },
+  "debug.console.fontSize": 16,
   "debug.javascript.suggestPrettyPrinting": false,
+  "deno.certificateStores": [],
   "deno.codeLens.implementations": true,
   "deno.codeLens.references": true,
   "deno.codeLens.referencesAllFunctions": true,
+  "deno.codeLens.test": true,
   "deno.suggest.completeFunctionCalls": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.acceptSuggestionOnEnter": "on",
   "editor.autoClosingBrackets": "always",
   "editor.autoClosingDelete": "always",
   "editor.autoClosingQuotes": "always",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+  },
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-  "editor.fontFamily": "'FiraCode Nerd Font', 'ProFontWindows Nerd Font', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontFamily": "'Fira Code', 'FiraCode Nerd Font', 'ProFontWindows Nerd Font', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "editor.fontLigatures": true,
-  "editor.fontSize": 18,
+  "editor.fontSize": 16,
   "editor.fontWeight": "500",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
@@ -28,15 +54,42 @@
   "editor.gotoLocation.multipleReferences": "gotoAndPeek",
   "editor.gotoLocation.multipleTypeDefinitions": "gotoAndPeek",
   "editor.inlineSuggest.enabled": true,
+  "editor.largeFileOptimizations": false,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "editor.quickSuggestionsDelay": 10,
+  "editor.suggest.preview": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": true,
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
+  "editor.wordBasedSuggestions": true,
   "emmet.includeLanguages": {},
   "emmet.showAbbreviationSuggestions": false,
   "emmet.showExpandedAbbreviation": "never",
   "emmet.showSuggestionsAsSnippets": true,
+  "eslint.enable": true,
   "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "eslint.trace.server": "verbose",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "json",
+    "jsonc",
+    "typescript",
+    "typescriptreact"
+  ],
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/.hg/store/**": true
+  },
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
@@ -46,19 +99,43 @@
     "plaintext": true,
     "markdown": true
   },
+  "github.copilot.inlineSuggest.enable": true,
+  "http.proxyStrictSSL": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "jupyter.askForKernelRestart": false,
-  "markdown.preview.fontSize": 18,
+  "markdown.preview.fontSize": 2,
+  "python.formatting.blackArgs": [
+    "-l 180"
+  ],
+  "python.formatting.provider": "black",
+  "python.linting.flake8Args": [
+    "--ignore",
+    "E501,W503,W504"
+  ],
+  "python.linting.flake8Enabled": true,
   "references.preferredLocation": "view",
-  "scm.inputFontSize": 18,
-  "terminal.integrated.fontSize": 18,
+  "scm.inputFontSize": 16,
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.tabs.enableAnimation": true,
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.tabs.focusMode": "singleClick",
+  "terminal.integrated.tabs.hideCondition": "never",
+  "terminal.integrated.tabs.location": "left",
+  "terminal.integrated.tabs.showActions": "always",
+  "terminal.integrated.tabs.showActiveTerminal": "always",
+  "testExplorer.onReload": "reset",
+  "testExplorer.showOnRun": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "vim.foldfix": true,
   "vim.hlsearch": true,
+  "win-ca.inject": "append",
   "window.autoDetectColorScheme": true,
-  "window.zoomLevel": 2,
-  "workbench.colorTheme": "Base16 Dark Tomorrow",
+  "window.zoomLevel": 4,
+  "workbench.colorTheme": "Base16 Light Tomorrow",
   "workbench.editor.enablePreview": false,
   "workbench.list.openMode": "doubleClick",
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
 }
