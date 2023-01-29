@@ -1,9 +1,9 @@
 {
   "[javascript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "[javascriptreact]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
@@ -14,32 +14,22 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.python",
     "editor.guides.indentation": true,
-    "editor.tabSize": 4,
-  },
-  "[svelte]": {
-    "editor.defaultFormatter": "svelte.svelte-vscode"
+    "editor.tabSize": 4
   },
   "[typescript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "debug.console.fontSize": 16,
-  "debug.javascript.suggestPrettyPrinting": false,
-  "deno.certificateStores": [],
-  "deno.codeLens.implementations": true,
-  "deno.codeLens.references": true,
-  "deno.codeLens.referencesAllFunctions": true,
-  "deno.codeLens.test": true,
-  "deno.suggest.completeFunctionCalls": true,
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.acceptSuggestionOnEnter": "on",
   "editor.autoClosingBrackets": "always",
   "editor.autoClosingDelete": "always",
   "editor.autoClosingQuotes": "always",
   "editor.codeActionsOnSave": {
-    "source.fixAll": true,
+    "source.fixAll": true
   },
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.fontFamily": "'Fira Code', 'FiraCode Nerd Font', 'ProFontWindows Nerd Font', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
@@ -56,13 +46,52 @@
   "editor.inlineSuggest.enabled": true,
   "editor.largeFileOptimizations": false,
   "editor.quickSuggestions": {
-    "other": true,
-    "comments": true,
-    "strings": true
+    "other": "on",
+    "comments": "on",
+    "strings": "on"
   },
   "editor.quickSuggestionsDelay": 10,
+  "editor.snippetSuggestions": "top",
+  "editor.suggest.filterGraceful": true,
+  "editor.suggest.insertMode": "insert",
+  "editor.suggest.localityBonus": false,
+  "editor.suggest.matchOnWordStartOnly": true,
   "editor.suggest.preview": true,
+  "editor.suggest.shareSuggestSelections": true,
+  "editor.suggest.showClasses": true,
+  "editor.suggest.showColors": true,
+  "editor.suggest.showConstants": true,
+  "editor.suggest.showConstructors": true,
+  "editor.suggest.showCustomcolors": true,
+  "editor.suggest.showDeprecated": true,
+  "editor.suggest.showEnumMembers": true,
+  "editor.suggest.showEnums": true,
+  "editor.suggest.showEvents": true,
+  "editor.suggest.showFields": true,
+  "editor.suggest.showFiles": true,
+  "editor.suggest.showFolders": true,
+  "editor.suggest.showFunctions": true,
+  "editor.suggest.showIcons": true,
+  "editor.suggest.showInlineDetails": true,
+  "editor.suggest.showInterfaces": true,
+  "editor.suggest.showIssues": true,
+  "editor.suggest.showKeywords": true,
+  "editor.suggest.showMethods": true,
+  "editor.suggest.showModules": true,
+  "editor.suggest.showOperators": true,
+  "editor.suggest.showProperties": true,
+  "editor.suggest.showReferences": true,
+  "editor.suggest.showSnippets": true,
+  "editor.suggest.showStatusBar": true,
+  "editor.suggest.showStructs": true,
+  "editor.suggest.showTypeParameters": true,
+  "editor.suggest.showUnits": true,
+  "editor.suggest.showUsers": true,
+  "editor.suggest.showValues": true,
+  "editor.suggest.showVariables": true,
+  "editor.suggest.showWords": true,
   "editor.suggest.snippetsPreventQuickSuggestions": true,
+  "editor.suggestOnTriggerCharacters": true,
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
   "editor.wordBasedSuggestions": true,
@@ -84,6 +113,9 @@
   ],
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
   "files.watcherExclude": {
     "**/.git/objects/**": true,
     "**/.git/subtree-cache/**": true,
@@ -96,23 +128,25 @@
   "github.copilot.enable": {
     "*": true,
     "yaml": false,
-    "plaintext": true,
+    "plaintext": false,
     "markdown": true
   },
   "github.copilot.inlineSuggest.enable": true,
   "http.proxyStrictSSL": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "jupyter.askForKernelRestart": false,
-  "markdown.preview.fontSize": 2,
+  "markdown.preview.fontSize": 16,
   "python.formatting.blackArgs": [
     "-l 180"
   ],
   "python.formatting.provider": "black",
+  "python.linting.enabled": true,
   "python.linting.flake8Args": [
     "--ignore",
     "E501,W503,W504"
   ],
   "python.linting.flake8Enabled": true,
+  "python.linting.mypyEnabled": true,
   "references.preferredLocation": "view",
   "scm.inputFontSize": 16,
   "security.workspace.trust.untrustedFiles": "open",
@@ -131,11 +165,157 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "vim.foldfix": true,
   "vim.hlsearch": true,
-  "win-ca.inject": "append",
   "window.autoDetectColorScheme": true,
   "window.zoomLevel": 4,
   "workbench.colorTheme": "Base16 Light Tomorrow",
   "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.list.openMode": "doubleClick",
   "workbench.startupEditor": "none",
+  "whichkey.bindingOverrides": [
+    {
+      "keys": "/",
+      "name": "Comment",
+      "type": "command",
+      "command": "editor.action.commentLine"
+    },
+    {
+      "keys": " ",
+      "name": "+EasyMotion",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": "f",
+          "name": "Find {char} to the right",
+          "type": "command",
+          "command": "vscode-neovim.send",
+          "args": "<plug>(easymotion-prefix)f"
+        },
+        {
+          "key": "F",
+          "name": "Find {char} to the right",
+          "type": "command",
+          "command": "vscode-neovim.send",
+          "args": "<plug>(easymotion-prefix)f"
+        },
+        {
+          "key": "t",
+          "name": "till before the {char} to the right",
+          "type": "command",
+          "command": "vscode-neovim.send",
+          "args": "<plug>(easymotion-prefix)t"
+        },
+        {
+          "key": "T",
+          "name": "till after the {char} to the left",
+          "type": "command",
+          "command": "vscode-neovim.send",
+          "args": "<plug>(easymotion-prefix)T"
+        },
+        {
+          "key": "w",
+          "name": "beginning of word forward",
+          "type": "command",
+          "command": "vscode-neovim.send",
+          "args": "<plug>(easymotion-prefix)w"
+        },
+        {
+          "key": "W",
+          "name": "beginning of WORD forward",
+          "type": "command",
+          "command": "vscode-neovim.send",
+          "args": "<plug>(easymotion-prefix)W"
+        },
+        {
+          "key": "b",
+          "name": "beginning of word backward",
+          "type": "command",
+          "command": "vscode-neovim.send",
+          "args": "<plug>(easymotion-prefix)b"
+        },
+        {
+          "key": "B",
+          "name": "beginning of WORD backward",
+          "type": "command",
+          "command": "vscode-neovim.send",
+          "args": "<plug>(easymotion-prefix)B"
+        },
+        {
+          "key": "e",
+          "name": "end of word forward",
+          "type": "command",
+          "command": "vscode-neovim.send",
+          "args": "<plug>(easymotion-prefix)e"
+        },
+        {
+          "key": "E",
+          "name": "end of WORD forward",
+          "type": "command",
+          "command": "vscode-neovim.send",
+          "args": "<plug>(easymotion-prefix)E"
+        },
+        {
+          "key": "g",
+          "name": "+Backwards",
+          "type": "bindings",
+          "bindings": [
+            {
+              "key": "e",
+              "name": "end of word backward",
+              "type": "command",
+              "command": "vscode-neovim.send",
+              "args": "<plug>(easymotion-prefix)ge"
+            },
+            {
+              "key": "E",
+              "name": "end of WORD backward",
+              "type": "command",
+              "command": "vscode-neovim.send",
+              "args": "<plug>(easymotion-prefix)gE"
+            },
+          ]
+        },
+        {
+          "key": "j",
+          "name": "line downward",
+          "type": "command",
+          "command": "vscode-neovim.send",
+          "args": "<plug>(easymotion-prefix)j"
+        },
+        {
+          "key": "k",
+          "name": "line upward",
+          "type": "command",
+          "command": "vscode-neovim.send",
+          "args": "<plug>(easymotion-prefix)k"
+        },
+        {
+          "key": "n",
+          "name": "jump to latest '/' or '?' forward",
+          "type": "command",
+          "command": "vscode-neovim.send",
+          "args": "<plug>(easymotion-prefix)n"
+        },
+        {
+          "key": "N",
+          "name": "jump to latest '/' or '?' backward",
+          "type": "command",
+          "command": "vscode-neovim.send",
+          "args": "<plug>(easymotion-prefix)N"
+        },
+        {
+          "key": "s",
+          "name": "find(search) {char} forward and backward",
+          "type": "command",
+          "command": "vscode-neovim.send",
+          "args": "<plug>(easymotion-prefix)s"
+        }
+      ]
+    }
+  ],
+  "chatgpt.authenticationType": "Google Authentication",
+  "chatgpt.chromiumPath": "/usr/bin/chromium",
+  "chatgpt.sessionToken": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..VxbS8fI1dPOCUp91.aKzt7tJelnCnq70hJtaF2lYdOD3audIs4UuYPLapsx5YUo5_S_nYmh9f9DdIZZeyaomfEurtn6Vy_iDgtycZN9HNtKnfrCM1TOZj29iT86jNIT1ynMQot2xCuCVlaVK_QHq2HjIBaZSHzQw8X_veyZB2JBjDS0XY5kC-fiEnAg1xT3qCeIGqpt3DHcito8D-rUhA4QT2VQx85wO14QZa0QM8_6aJhT3aVB0Ka6MFF1u2dgGIdIbFXZxSr1h3H49KKZG-ODFBxNUI_wbh17KOA_sfl_KoV8ec3f3azIIFgw_YTk4diOBRNqW9iMpw7h9f5Vjs4a0moNIvYRiPipGl78__iyA3L5iUXcHMxtO908R4NUWghuS17KyiLT6Ubldn06XNU3Ezjcg9kWlgIWOPa8LNXLcUystIzuC-hqRsNjCKWDYge7AWLH0gxbk4Jj5xRwIqnkGVV18YLwEFwMfu7B-hFsrthK3LNkQsehYNFnUHf1nJNmYr2vfu6hNMtMNvZO4VQXWtImgG5_MUAkeQRhQDfPn4Jo3C65haJmyfg2EMtt6MH4RQh8x4DeUwARpYjXgPdoH1xGlvi6B-t8OaIXwPNYwroVL80h51zq1eMawNCZGcUwaSQTnQgjJe8Y9G64oaVLhgETGRbiXRtq_pe2e6Ru85BJWdZcBe79XN0ACVEuQlzADiTF5WpSpjVl_1EJ5uphKrzLnX9keohSdcR1ubxvW2EjeAu-5xTfSBJ4ozmNbIEfL5MrDxkaaCaMpwY1Jk2R-ecmPHhHlbjMrsQePCwu69M4mMxsn50jHJQr4CJHR56F1E-NMu3gJmUM0bjDPsmG4Or7zdby5Oyk_T_jAnqTgLXhYVY_tRSAsbAm7VHGLO7UqWPFGvg61Zm7SAVyjDuwvcbGwQL_mXYHUYkfcQsPbXLDP8mbju0ukJKwgEDBOIEyiTLeHj4JeRKIwDY96wqnXuCjRRu-X9JG8CK-D_p7zKGA5E-uQuZUKoW29Fhf-xuUXAXP-0sufYsWneuUcv_mxGme7qSgKGGeRrby5k8Bts59DQlZAgHcSrfTbBeGFjeYUHIdbqHcSZFOmgeYmONq4gMN_iDr12543QgjcmNwMORqmqZcv4IyOwRT8KpIbvrIzPwC-5Srxgh5HVPBw-HFZcTNNwc9hQ8jv1TcRj3Iu8nwHYSQeCobHnkBufCTVa2eQJiXxTsTA0uhiElU5BBueEnb4KMqaQnspwIlq_SfQ2n_4zbT8ezebmHWqJYxs8-ptaL5wEbxqJYleh5BvrBAsKhcU3HV1J6e0SbCjwvykhwtTm0J6EKg12MJ3EM4WDUOrrf1a0lFlcT5NkaNMUWjo1RAErmTPAfTL5JGd5lUzKHOa_H7IevyqIqrZLHMvztJPZFSbp9nmxB2C56OIXshcXc_e59_sHxWLvIjRvkOC9-UPdVXe-pe1Il9sVIfRFD4u5Q3q5nt1ADSEJ0HH9HbNhl7HuFZQ_1_54NFzdwij40uFl_863EpnJ7H0YJRZwjEqnW4bTD5EmLFlsJYTiGPKebvQlXBwiQ4JnRKeoR5Ge-H2BzJNt1FLixq7Jmb3TyXiDQkupASRMm-3zIhXDXraVWRbaCTfISgdHdeDBMOXOpQiYNqNZw1hj1KZwRZtm05Nq2siuFJuEzY8LALZHH2c_lKqcobcAIVwhjv1MIoNc6hlJrBBl-8nUwMY0m-Qyj5O6ChzVVYOt2qgDK4DUhEQA0yWBl6W_kzZbSWHrAm7pjV2PTMZDnAW0u3IGzS-xwZGf2UJ4eL6m5sC-WMaCXosGxuyF6JUX0IKEgJVa1D-fuH7BtuTLKujJ5TltnE96OP-_sYwrJXtF6USagTUWf10H_Ync9I3nhvmZwd4HKbzYgAmZO3z_kHQTjJjyv6SiwE0kSw1cfUKOCkIh4PgnLttfQHDR-dV-HFwdthMSnzOCIgJmksG2BpJo7gKoaHDN3SafR2w5jKpJxaLWPQpJUXTdZdM7K6ApxF-FIwYqFW4P9N2vAQ4rvKKxTM-8hRtRXvSiPMSQDvvH6wWJpQZTRDtRwcmpVwir-0-BUj3FSR00jBPQ2MNHpe3j11PWbHyC8zBVvSmgZdycAI2xiejiT8-Z0pkfwwcsP-muAADi1edy4Qv9D0jfSvJZzIvGC78dUn5RSNs6xHHTg8OdNZJG0Ga2Bj0qnI_DTDKhTVBjsdcrl9OkRTAogUf_tIdoLaHY8oQpjmLAaFZ71xEbs5r09aouB_4M_kLTKLt39bRq0sUr8FPv5FWnvGNz--ZtzEVA2_Mgdfq9WMyokwMZOjICYj2Vs53_KSbcGgexT6P-ueyiEtFiMvBkKrwpUlObWJbMcQVdpBt3JayEOmu90KDQYPb7tuc2_aCLZF-5tJptIVc2bajYirn9mV9JQU6-ZcL20bpqPt72jZ2-jJxiqlMP9Oz0L606ka2LuI46wO2pWlXnYqcE0R2IYBElujU_eoG3SkGDcRlH98B9HuGy3l39aw2gzf4HVUpRm0LYZKp0FGYhjfLt4BuVoCnS2QauG1W9zR_P3Yoe4FlpZnUfis1OVS0o.INDm11Zah5Uxb4UOZV0bbg",
+  "chatgpt.clearanceToken": "mH9P.olvQTmC5UNwZF.xJXw2FGn8VJf.0mUuq43RK6M-1674464688-0-1-98642a9.b40d5205.9c8c1724-160",
+  "chatgpt.userAgent": "Mozilla/5.0 (X11; Linux i686; rv:109.0) Gecko/20100101 Firefox/109.0"
 }
