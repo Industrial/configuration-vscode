@@ -46,6 +46,26 @@
   },
   {
     "key": "alt+enter",
-    "command": "editor.action.inlineSuggest.trigger",
+    "command": "editor.action.inlineSuggest.trigger"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.navigateRight"
+  },
+  {
+    "key": "ctrl+shift+enter",
+    "command": "github.copilot.generate"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "editor.action.inlineSuggest.trigger"
+  },
+  {
+    "key": "ctrl+]",
+    "command": "editor.action.inlineSuggest.showNext"
+  },
+  {
+    "key": "ctrl+[",
+    "command": "editor.action.inlineSuggest.showPrevious"
   }
 ]
